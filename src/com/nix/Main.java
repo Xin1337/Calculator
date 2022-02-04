@@ -19,8 +19,10 @@ public class Main {
         return (x * y);
     }
 
-    public static int division() {
-        return (x / y);
+    public static double division() {
+        Double d = new Double(x);
+        Double d2 = new Double(y);
+        return (d / d2);
     }
 
     public static void main(String[] args) {
